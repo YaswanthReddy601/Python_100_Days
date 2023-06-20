@@ -5,23 +5,7 @@ import random
 timmy = Turtle()
 timmy.shape("turtle")
 timmy.color("green")
-#Square
-#timmy.forward(100)
-#timmy.right(90)
-#timmy.forward(100)
-#timmy.right(90)
-#timmy.forward(100)
-#timmy.right(90)
-#timmy.forward(100)
 
-#a line
-#for x in range(14):
-#    turtle.forward(10)
-#    turtle.penup()
-#    turtle.forward(10)
-#    turtle.pendown()
-
-#shapes
 colors = ["red","blue","green","pink","black","orange","CornflowerBlue", "IndianRed"]
 
 

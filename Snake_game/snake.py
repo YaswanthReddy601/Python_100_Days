@@ -16,14 +16,25 @@ class Snake:
         self.head = self.tails[0]
 
     def create_snake(self):
+        """Creating the snake"""
         for x in STARTING:
-            snake = Turtle("square")
-            snake.color("white")
-            snake.penup()
-            snake.goto(x)
-            snake.speed(10)
-            self.tails.append(snake)
+            self.add_tail(x)
 
+    def add_tail(self,position):
+        """Adding a tail"""
+        snake = Turtle("square")
+        snake.color("white")
+        snake.penup()
+        snake.goto(position)
+        snake.speed(10)
+        self.tails.append(snake)
+
+
+    def extend(self):
+        """extending the snakes boy"""
+        self.add_tail(self.tails[-1].position())
+
+    #snake's bosy controls
     def move(self):
        for tail_num in range(len(self.tails) - 1, 0, -1):
            new_x = self.tails[tail_num - 1].xcor()
@@ -32,6 +43,7 @@ class Snake:
 
        self.tails[0].forward(DISTANCE)
 
+    #Snake's head contrils
     def up(self):
         if self.head.heading() != DOWN:
             self.head.setheading(90)

@@ -33,29 +33,6 @@ while game_on:
                 break
         distance = random.randint(0,10)
         turtle.forward(distance)
-# tim2 = Turtle()
-# tim2.shape("turtle")
-# tim2.color("blue")
-# tim2.penup()
-# tim2.goto(x=-380,y=50)
-#
-# tim3 = Turtle()
-# tim3.shape("turtle")
-# tim3.color("orange")
-# tim3.penup()
-# tim3.goto(x=-380,y=-50)
-#
-# tim4 = Turtle()
-# tim4.shape("turtle")
-# tim4.color("pink")
-# tim4.penup()
-# tim4.goto(x=-380,y=100)
-#
-# tim5 = Turtle()
-# tim5.shape("turtle")
-# tim5.color("green")
-# tim5.penup()
-# tim5.goto(x=-380,y=-100)
 
 
 scr.exitonclick()
