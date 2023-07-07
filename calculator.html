@@ -1,0 +1,62 @@
+ <!DOCTYPE html>
+<html >
+<head>
+    <title>Calculator</title>
+    <style>
+        .calculator {
+            width: 170px;
+            padding: 10px;
+            border: 1px solid #36454F;
+            margin-top: 250px;
+            margin-left: 650px;
+        }
+    </style>
+</head>
+<body>
+    <div class="calculator">
+
+        <input type="text" id="screen" >
+        <br><br>
+        <button onclick="insert('1')">1</button>
+        <button onclick="insert('2')">2</button>
+        <button onclick="insert('3')">3</button>
+        <button onclick="insert('/')">/</button>
+        <button onclick="back()">B</button>
+        
+        <br> <br>
+        <button onclick="insert('4')">4</button>
+        <button onclick="insert('5')">5</button>
+        <button onclick="insert('6')">6</button>
+        <button onclick="insert('*')">*</button>
+
+        <br><br>
+        <button onclick="insert('7')">7</button>
+        <button onclick="insert('8')">8</button>
+        <button onclick="insert('9')">9</button>
+        <button onclick="insert('-')">-</button>
+        <br><br>
+        <button onclick="insert('0')">0</button>
+        <button onclick="clean()">C</button>
+        <button onclick="insert('+')">+</button>
+        <button onclick="calculate()">=</button>
+
+    </div>
+    <script>
+        function insert(numb){
+            document.getElementById("screen").value += numb;
+        }
+        function clean(){
+            document.getElementById("screen").value = "";
+        }
+        function calculate() {
+            var result = eval(document.getElementById("screen").value);
+            document.getElementById("screen").value = result;
+        }
+        function back(){
+            var data = document.getElementById("screen").value
+            document.getElementById("screen").value = data.slice(0,-1)
+        }
+    </script>
+</body>
+</html>
+
