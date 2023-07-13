@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/venv" />
+    </content>
+    <orderEntry type="jdk" jdkName="Python 3.11 (s67)" jdkType="Python SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="S67-RESTful-blog-start" />
+    <orderEntry type="module" module-name="Shopping_2" />
+    <orderEntry type="module" module-name="Shopping" />
+    <orderEntry type="module" module-name="sql_start" />
+    <orderEntry type="module" module-name="S69 Files+-+flask-auth-start" />
+    <orderEntry type="module" module-name="S69" />
+    <orderEntry type="module" module-name="S70 Blog with users start" />
+    <orderEntry type="module" module-name="S70 Authentication Blog" />
+    <orderEntry type="module" module-name="xxxxxxxxxxx" />
+  </component>
+</module>

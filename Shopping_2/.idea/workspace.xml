@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c1543e5d-f326-4a7a-888b-5e25bde63ffc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Data_Entry/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Data_Entry/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pixela_Habbit_Tracking_Project/.idea/Pixela-Habbit_Tracking_Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Pixela_Habbit_Tracking_Project/.idea/Pixela-Habbit_Tracking_Project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pixela_Habbit_Tracking_Project/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Pixela_Habbit_Tracking_Project/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pixela_Habbit_Tracking_Project/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Pixela_Habbit_Tracking_Project/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shopping/Customer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Shopping/Customer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shopping/Inventory_Shop.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Shopping/Inventory_Shop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shopping/Length_Exception.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Shopping/Length_Exception.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shopping/Payment.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Shopping/Payment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shopping/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Shopping/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Turtle_Crossing_Game/High_Score.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Turtle_Crossing_Game/High_Score.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WEB Development/6.4 Motivation Meme Project/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../WEB Development/6.4 Motivation Meme Project/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WEB Development/6.4 Motivation Meme Project/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../WEB Development/6.4 Motivation Meme Project/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../age and gender/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../age and gender/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../age and gender/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../age and gender/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../csv_joins_assessment/.idea/csv_joins_assessment.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../csv_joins_assessment/.idea/csv_joins_assessment.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../csv_joins_assessment/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../csv_joins_assessment/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../csv_joins_assessment/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../csv_joins_assessment/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flash-card-project-start" beforeDir="false" afterPath="$PROJECT_DIR$/../flash-card-project-start" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject/CSV/CSV_Practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject/CSV/CSV_Practice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject/Email/Emailing_With_Text.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject/Email/Emailing_With_Text.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject/Email/Sending_Emails_with_Attachmentss.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject/Email/Sending_Emails_with_Attachmentss.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject1/CSV_Files/.idea/CSV_Files.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject1/CSV_Files/.idea/CSV_Files.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject1/CSV_Files/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject1/CSV_Files/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject1/Miles Calculator/.idea/Miles Calculator.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject1/NATO Alphabet Project/.idea/NATO Alphabet Project.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2SMsanj0bbQpfbgkWQkxXPPQ3hG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;last_opened_file_path&quot;: &quot;Z:/My_python/sql_start&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Shopping_2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c1543e5d-f326-4a7a-888b-5e25bde63ffc" name="Changes" comment="" />
+      <created>1688967849200</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1688967849200</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,41 @@
+{% include "header.html" %}
+
+<!-- Page Header -->
+<header class="masthead" style="background-image: url('{{post.img_url}}')">
+	<div class="overlay"></div>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-md-10 mx-auto">
+				<div class="post-heading">
+					<h1>{{post.title}}</h1>
+					<h2 class="subheading">{{post.subtitle}}</h2>
+					<span class="meta">Posted by
+              <a href="#">{{post.author}}</a>
+              on {{post.date}}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Post Content -->
+  <article>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <p>
+          <!--the data from CKEditorField is saved as HTML and when we see the data it showa the HTML tags also.
+              so we use jinja safe(). then template doesnot treat as HTML as test. -->
+            {{post.body|safe}}
+          </p>
+           <hr>
+           <div class="clearfix">
+          <a class="btn btn-primary float-right" href="{{url_for('edit_post', index=post.id)}}">Edit Post</a>
+        </div>
+          </div>
+      </div>
+    </div>
+  </article>
+
+  <hr>
+{% include "footer.html" %}

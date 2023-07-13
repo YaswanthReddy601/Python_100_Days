@@ -1,0 +1,7 @@
+order_id,order_item,order_price,customer_id,customer_name,customer_number
+1,lenovo laptop,49999,501,Rahul,918055257
+5,wireless keyboard and mouse,3500,501,Rahul,918055257
+2,realme mobile,19999,502,Rajesh,850136249
+4,realme mobile case,199,502,Rajesh,850136249
+3,samsung TV,35000,503,Kalyan,753951864
+6,chocolates,100,504,Ramya,951734682

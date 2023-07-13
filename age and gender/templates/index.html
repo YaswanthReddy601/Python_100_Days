@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Guess</title>
+</head>
+<body>
+<!--  <center>-->
+<!--    <h1>Hey {{name.title()}}</h1>-->
+<!--    <h2>I think you are {{gender}}</h2>-->
+<!--    <h3>may be your age is {{age}}</h3>-->
+<!--  </center>-->
+    {% for record in data: %}
+        {% if record("id")==1: %}
+            <h1>{{ record["title"] }}</h1>
+            <h2>{{ record["subtitle"] }}</h2>
+        {%  endif %}
+    {% endfor %}
+</body>
+</html>

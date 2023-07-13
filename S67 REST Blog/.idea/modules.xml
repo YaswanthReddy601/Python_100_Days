@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/S67 REST Blog.iml" filepath="$PROJECT_DIR$/.idea/S67 REST Blog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../S67-RESTful-blog-start/.idea/S67-RESTful-blog-start.iml" filepath="$PROJECT_DIR$/../S67-RESTful-blog-start/.idea/S67-RESTful-blog-start.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../S69/.idea/S69.iml" filepath="$PROJECT_DIR$/../S69/.idea/S69.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../S69 Files+-+flask-auth-start/.idea/S69 Files+-+flask-auth-start.iml" filepath="$PROJECT_DIR$/../S69 Files+-+flask-auth-start/.idea/S69 Files+-+flask-auth-start.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../S70 Authentication Blog/.idea/S70 Authentication Blog.iml" filepath="$PROJECT_DIR$/../S70 Authentication Blog/.idea/S70 Authentication Blog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../S70 Blog with users start/.idea/S70 Blog with users start.iml" filepath="$PROJECT_DIR$/../S70 Blog with users start/.idea/S70 Blog with users start.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Shopping/.idea/Shopping.iml" filepath="$PROJECT_DIR$/../Shopping/.idea/Shopping.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Shopping_2/.idea/Shopping_2.iml" filepath="$PROJECT_DIR$/../Shopping_2/.idea/Shopping_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sql_start/.idea/sql_start.iml" filepath="$PROJECT_DIR$/../sql_start/.idea/sql_start.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../xxxxxxxxxxx/.idea/xxxxxxxxxxx.iml" filepath="$PROJECT_DIR$/../xxxxxxxxxxx/.idea/xxxxxxxxxxx.iml" />
+    </modules>
+  </component>
+</project>
