@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% block title %}Restaurants{% endblock %}
+
+{% block content %}
+{% from 'bootstrap5/table.html' import render_table %}
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+
+            <h1>All Cafes</h1>
+     <table class="table" style="color:white">
+       <tr>
+           <td> Id </td> <td> Cafe </td> <td> location </td> <td> open </td> <td> closing </td> <td> coffe_rating </td>
+            <td> wifi_rating </td> <td> power_rating </td> <td> </td> <td> </td>
+       </tr>
+
+      {% for cafe in cafes: %}
+    <tr>
+        <td> {{ cafe.id }} </td> <td> {{ cafe.cafe }} </td> <td> <a href="{{ cafe.location }}">Location link </a> </td> <td> {{ cafe.open }} </td> <td> {{ cafe.closing }} </td>
+        <td> {{ cafe.coffe_rating }} </td> <td> {{ cafe.wifi_rating }} </td> <td> {{ cafe.power_rating }} </td>
+            <td> <a class="btn btn-danger rounded-pill px-3" href="{{url_for('remove', id= cafe.id)}}" type="button">Delete</a> </td>
+                <td> <a class="btn btn-primary rounded-pill px-3" href="{{url_for('modify', id= cafe.id)}}" type="button">Edit</a></td>
+    </tr>
+
+       {% endfor %}
+                <!-- This is where you will write the code to render a Bootstrap
+                Table that contains all the information from the
+                cafe-data.csv file. -->
+     </table>
+            <p><a  class="btn btn-warning rounded-pill px-3"  href="{{url_for('home')}}">Return to index page</a></p>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% block title %} Update Cafe {% endblock %}
+
+{% block content %}
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <h1> {{cafe.cafe}} </h1>
+            <form action="{{url_for('modify', id=cafe.id)}}" method="post">
+                location : <input type="text" value="{{cafe.location}}" name="location"> <br><br>
+                open : <input type="text" value="{{cafe.open}}" name="open"> <br><br>
+                closing : <input type="text" value="{{cafe.closing}}" name="closing"> <br><br>
+                coffe_rating : <select name="coffe_rating">
+                                    <option value="☕">☕</option>
+                                    <option value="☕☕">☕☕</option>
+                                    <option value="☕☕☕">☕☕☕</option>
+                                    <option value="☕☕☕☕">☕☕☕☕</option>
+                                    <option value="☕☕☕☕☕">☕☕☕☕☕</option>
+                              </select> <br><br>
+                wifi_rating : <select name="wifi_rating">
+                                    <option value="✘">✘</option>
+                                    <option value="💪">💪</option>
+                                    <option value="💪💪">💪💪</option>
+                                    <option value="💪💪💪">💪💪💪</option>
+                                    <option value="💪💪💪💪">💪💪💪💪</option>
+                                    <option value="💪💪💪💪💪">💪💪💪💪💪</option>
+                              </select> <br><br>
+                power_rating : <select name="power_rating">
+                                    <option value="✘">✘</option>
+                                    <option value="🔌">🔌</option>
+                                    <option value="🔌🔌">🔌🔌</option>
+                                    <option value="🔌🔌🔌">🔌🔌🔌</option>
+                                    <option value="🔌🔌🔌🔌">🔌🔌🔌🔌</option>
+                                    <option value="🔌🔌🔌🔌🔌">🔌🔌🔌🔌🔌</option>
+                               </select> <br><br>
+                <button type="submit">Update</button>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
